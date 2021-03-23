@@ -1,0 +1,96 @@
+
+@media(max-width:1212px){
+    .FixedWidth{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media(max-width:824px){
+    .FixedWidth{
+        width: 100%;
+        margin: auto;
+    }
+    .hadder-left {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .hadder-right {
+        float: left;
+        width: 100%;
+        line-height: 54px;
+    }
+    .hadder-right ul {
+        text-align: center;
+    }
+}
+
+@media(max-width:750px){
+    .FixedWidth{
+        width: 100%;
+        margin: auto;
+    }
+    .banner-part {
+        padding: 100px;
+    }
+    .contan-left {
+        float: left;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .contan-right p {
+        width: 100%;
+        height: auto;
+        line-height: 19px;
+        margin: auto;
+    }
+    .contan-left img {
+        width: 347px;
+        margin-top: 24px;
+        margin-left: 117px;
+    }
+    .contan-left {
+        width: 100%;
+     
+    }
+    .contan-right {
+        width: 100%;
+        text-align: center;
+    }
+    .contan-right p {
+        width: 94%;
+        margin: auto;
+    }
+    .contan-left {
+        float: left;
+        width: 100%;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .contan-left img {
+        width: 409px;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+    .section-part-2 {
+        float: left;
+        width: 52%;
+        margin: 37px 0;
+        margin-left: 163px;
+        padding: 38px 10px;
+
+    }
+    .footer-text {
+        float: left;
+        width: 100%;
+    }
+    .footer-icon {
+        float: right;
+        width: 100%;
+        text-align: center;
+        padding-top: 13px;
+    }
+
+}

@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clereFixed::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.FixedWidth{
+    width: 1200px;
+    margin: auto;
+}
+.Text-Right{
+        text-align: right;
+}
+.Text-Center{
+    text-align: center;
+}
+/* hadder-part */
+.hadder{
+    background: #f5deb3;
+    padding: 13px;
+}
+.hadder-left{
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+.hadder-left img {
+	width: 100px;
+	margin-left: 38px;
+}
+.hadder-left a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);  
+}
+.hadder-left a span{
+    font-size: 27px;
+    margin-left: 11px;
+}
+.hadder-right {
+	float: right;
+	width: 60%;
+	line-height: 54px;
+}
+.hadder-right ul{
+         text-align:right;
+}
+.hadder-right ul li {
+            display: inline-block;
+            line-height: 29px;
+            margin: 1px -2px;
+}
+.hadder-right ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+    padding: 18px 21px;
+    transition: .4s;
+}
+.hadder-right ul li a:hover{
+    color: red;
+}
+/* banner-part */
+.banner{
+    background-image: url(https://img.freepik.com/free-photo/young-attractive-smiling-caucasian-brunette-sitting-sofa-living-room-using-laptop-freelance-job_232070-1624.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-part{
+    padding: 200px;
+}
+/* services-part */
+.service{
+       background: #ffffff;
+}
+.section-1{
+        color: black;
+}
+.section-1 h2{
+    margin: 15px 0;
+}
+.ssection-1 p{
+    float: left;
+}
+/* About part */
+
+/* contan part */
+.contan-part{
+    margin: 40px 0;
+}
+.contan-left {
+	float: left;
+	width: 50%;
+	margin-right: 0px;
+}
+.contan-left img {
+	width: 409px;
+	margin-top: 24px;
+	margin-left: 117px;
+}
+.contan-right {
+	float: left;
+	width: 42%;
+	margin-top: 24px;
+}
+.contan-right h2{
+    color: rgb(8, 5, 5);
+    line-height: 46px;
+}
+.contan-right h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.contan-right p {
+	width: 450px;
+	height: auto;
+	line-height: 19px;
+}
+/*  contact part */
+.services-part-2{
+    border-bottom: 2px solid #baeade;
+    background: #fffaf0;
+}
+.section-part-2 {
+	float: left;
+	width: 30%;
+	margin: 35px 0;
+	margin-left: 25px;
+	box-sizing: border-box;
+	padding: 38px 10px;
+	border: 2px dotted red;
+	border-radius: 40px 0 40px 0;
+}
+.section-part-2 span {
+	color: #0ce2b7;
+	font-size: 21px;
+	background: #000;
+	padding: 10px;
+	border-radius: 20px 7px 20px;
+}
+.section-part-2 h2{
+        color: rgb(5, 1, 1);
+        line-height: 52px;
+}
+.section-part-2 p{
+    max-width: 300px;
+}
+/* footer part */
+ .footer-part{
+     background: #2c3e50;
+     padding: 10px 0;
+ }
+.footer-text{
+    float: left;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+.footer-icon{
+    text-align: center;
+}
+.footer-icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-part i:hover{
+    color: black;
+}
